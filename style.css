@@ -1,0 +1,114 @@
+body {
+    background-color: #F2EBDF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cabecalho {
+    background-image: url(elas\ na\ tech-canva.jpg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px;
+    margin: 0;
+    background-color: #ffa200;
+}
+
+.div-cabecalho {
+    /*background-color: aqua*/
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: black;
+
+}
+
+.div-cabecalho h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(51, 155, 239, 0.5)
+}
+
+
+.div-cabecalho a {
+    background-color: #859CA6;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(51, 155, 239, 0.5)
+}
+
+.div-cabecalho a:hover {
+    background-color: #F2EBDF;
+    color: black;
+    text-shadow: 2px 2px rgba(51, 155, 239, 0.5)
+}
+
+.cabecalho nav ul {
+    /*background-color: #859CA6;*/
+    margin: 25px 40px 0 0;
+    text-align: right;
+
+
+}
+
+.cabecalho nav ul li {
+    text-decoration: none;
+    background-color: #F2EBDF;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+
+}
+
+.cabecalho nav a {
+    color: black;
+    text-decoration: none;
+    background-color: #859CA6;
+    padding: 5px;
+    border-radius: 5px;
+
+
+
+}
+
+.cabecalho nav a:hover {
+    background-color: #F2EBDF;
+    color: black;
+    text-shadow: 2px 2px rgba(51, 155, 239, 0.5)
+}
+
+main {
+    margin: 0;
+}
+
+.titulo-01 {
+    background-color: #859CA6;
+}
+
+
+.imageText {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageSmall {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    float:left
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.textSmall {
+    display: inline; 
+}
